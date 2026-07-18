@@ -18,7 +18,7 @@ readonly NC='\033[0m'
 # 网络超时设置
 readonly SHORT_CONNECT_TIMEOUT=5
 readonly SHORT_MAX_TIMEOUT=7
-readonly SCRIPT_URL="https://raw.githubusercontent.com/zywe03/realm-xwPF/main/port-traffic-dog.sh"
+readonly SCRIPT_URL="https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/port-traffic-dog.sh"
 readonly SHORTCUT_COMMAND="dog"
 
 detect_system() {
@@ -2361,7 +2361,7 @@ download_with_sources() {
 download_notification_modules() {
     local notifications_dir="$CONFIG_DIR/notifications"
     local temp_dir=$(mktemp -d)
-    local repo_url="https://github.com/zywe03/realm-xwPF/archive/refs/heads/main.zip"
+    local repo_url="https://github.com/Today-to-Lsp/realm-xwPF/archive/refs/heads/main.zip"
 
     # 下载解压复制清理：每次都覆盖更新确保版本一致
     if download_with_sources "$repo_url" "$temp_dir/repo.zip" &&
