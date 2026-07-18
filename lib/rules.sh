@@ -1134,7 +1134,7 @@ export_config_package() {
         return
     fi
 
-    local export_dir="/usr/local/bin"
+    local export_dir="/root"
     local timestamp=$(get_gmt8_time '+%Y%m%d_%H%M%S')
     local export_filename="xwPF_config_${timestamp}.tar.gz"
     local export_path="${export_dir}/${export_filename}"
