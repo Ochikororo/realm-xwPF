@@ -88,7 +88,7 @@ wget -qO- https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/xwPF.sh
 ### Behind a Restricted Network? Use an Accelerated Mirror
 
 ```bash
-wget -qO- https://v6.gh-proxy.org/https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/xwPF.sh | sudo bash -s install
+wget -qO- https://github.oneoro.de/https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/xwPF.sh | sudo bash -s install
 ```
 If the mirror is down, retry a few times or switch to another proxy with built-in acceleration.
 

@@ -88,7 +88,7 @@ wget -qO- https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/xwPF.sh
 ### 网络受限使用加速源,一键安装
 
 ```bash
-wget -qO- https://v6.gh-proxy.org/https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/xwPF.sh | sudo bash -s install
+wget -qO- https://github.oneoro.de/https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/xwPF.sh | sudo bash -s install
 ```
 若加速源失效，可多次重试或更换其他具有内置加速功能的代理源
 
