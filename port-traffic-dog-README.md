@@ -56,12 +56,12 @@
 
 ### 方式一：直接安装
 ```bash
-wget -O port-traffic-dog.sh https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/port-traffic-dog.sh && chmod +x port-traffic-dog.sh && ./port-traffic-dog.sh
+wget -O port-traffic-dog.sh https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/port-traffic-dog.sh && chmod +x port-traffic-dog.sh && ./port-traffic-dog.sh
 ```
 
 ### 方式二：使用加速源
 ```bash
-wget -O port-traffic-dog.sh https://github.oneoro.de/https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/port-traffic-dog.sh && chmod +x port-traffic-dog.sh && ./port-traffic-dog.sh
+wget -O port-traffic-dog.sh https://github.oneoro.de/https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/port-traffic-dog.sh && chmod +x port-traffic-dog.sh && ./port-traffic-dog.sh
 ```
 若加速源失效，可多次重试或更换其他具有内置加速功能的代理源
 

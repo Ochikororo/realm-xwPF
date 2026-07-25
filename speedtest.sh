@@ -1505,7 +1505,7 @@ show_main_menu() {
 manual_update_script() {
     echo -e "${YELLOW}正在更新脚本...${NC}"
 
-    local script_url="https://raw.githubusercontent.com/Today-to-Lsp/realm-xwPF/main/speedtest.sh"
+    local script_url="https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/speedtest.sh"
     local temp_file=$(mktemp)
 
     if download_from_sources "$script_url" "$temp_file"; then
