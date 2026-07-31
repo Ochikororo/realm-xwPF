@@ -192,6 +192,7 @@ toggle_failover_mode() {
                     fi
 
                     echo -e "${GREEN}$rule_number.${NC} ${port_configs[$port_key]} (端口: $port_key) - $target_count个目标服务器 - 故障转移: ${status_color}$status_text${NC}"
+                    ((rule_number++))
                 fi
             done
         fi
