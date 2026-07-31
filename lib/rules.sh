@@ -1994,8 +1994,8 @@ switch_balance_mode() {
 
         # 显示端口组列表（只显示有多个目标服务器的端口组）
         local has_balance_rules=false
-        declare -a rule_ports
-        declare -a rule_names
+        local rule_ports=()
+        local rule_names=()
 
         for port_key in "${!port_groups[@]}"; do
             # 计算目标服务器总数
