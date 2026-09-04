@@ -20,7 +20,7 @@ readonly GREEN='\033[0;32m'
 readonly NC='\033[0m'
 readonly SHORT_CONNECT_TIMEOUT=5
 readonly SHORT_MAX_TIMEOUT=7
-readonly SCRIPT_URL="https://raw.githubusercontent.com/zywe03/realm-xwPF/main/port-traffic-dog.sh"
+readonly SCRIPT_URL="https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/port-traffic-dog.sh"
 readonly SHORTCUT_COMMAND="dog"
 
 detect_system() {
@@ -1470,7 +1470,7 @@ show_main_menu() {
     collect_vps_traffic
 
     echo -e "${BLUE}=== 端口流量狗 v$SCRIPT_VERSION ===${NC}"
-    echo -e "${GREEN}了解更多:${NC}https://zywe.de | ${GREEN}项目开源:${NC}https://github.com/zywe03/realm-xwPF"
+    echo -e "${GREEN}了解更多:${NC}https://zywe.de | ${GREEN}项目开源:${NC}https://github.com/Ochikororo/realm-xwPF"
     echo -e "${GREEN}一只轻巧的‘守护犬’，时刻守护你的端口流量 | 快捷命令: dog${NC}"
     echo
 
@@ -3531,7 +3531,7 @@ download_with_sources() {
 download_notification_modules() {
     local notifications_dir="$CONFIG_DIR/notifications"
     local temp_dir=$(mktemp -d)
-    local repo_url="https://github.com/zywe03/realm-xwPF/archive/refs/heads/main.zip"
+    local repo_url="https://github.com/Ochikororo/realm-xwPF/archive/refs/heads/main.zip"
 
     if download_with_sources "$repo_url" "$temp_dir/repo.zip" &&
        (cd "$temp_dir" && unzip -q repo.zip) &&
@@ -3863,7 +3863,7 @@ format_status_message() {
     local daily_total=$(get_daily_total_traffic)
 
     local message="<b>${notification_icon} 端口流量狗 v${SCRIPT_VERSION}</b> | ⏰ ${timestamp}
-了解更多:<code>https://zywe.de</code> | 项目开源:<code>https://github.com/zywe03/realm-xwPF</code>
+了解更多:<code>https://zywe.de</code> | 项目开源:<code>https://github.com/Ochikororo/realm-xwPF</code>
 一只轻巧的'守护犬'，时刻守护你的端口流量 | 快捷命令: dog
 ---
 $(format_vps_traffic_line "plain")
@@ -3885,7 +3885,7 @@ format_text_status_message() {
     local daily_total=$(get_daily_total_traffic)
 
     local message="${notification_icon} 端口流量狗 v${SCRIPT_VERSION} | ⏰ ${timestamp}
-了解更多: https://zywe.de | 项目开源: https://github.com/zywe03/realm-xwPF
+了解更多: https://zywe.de | 项目开源: https://github.com/Ochikororo/realm-xwPF
 一只轻巧的'守护犬'，时刻守护你的端口流量 | 快捷命令: dog
 ---
 $(format_vps_traffic_line "plain")
@@ -3907,7 +3907,7 @@ format_markdown_status_message() {
     local daily_total=$(get_daily_total_traffic)
 
     local message="**${notification_icon} 端口流量狗 v${SCRIPT_VERSION}** | ⏰ ${timestamp}
-了解更多: \`https://zywe.de\` | 项目开源: \`https://github.com/zywe03/realm-xwPF\`
+了解更多: \`https://zywe.de\` | 项目开源: \`https://github.com/Ochikororo/realm-xwPF\`
 一只轻巧的'守护犬'，时刻守护你的端口流量 | 快捷命令: dog
 ---
 $(format_vps_traffic_line "markdown")
@@ -4055,7 +4055,7 @@ main() {
             --version)
                 echo -e "${BLUE}$SCRIPT_NAME v$SCRIPT_VERSION${NC}"
                 echo -e "${GREEN}了解更多:${NC} https://zywe.de"
-                echo -e "${GREEN}项目开源:${NC} https://github.com/zywe03/realm-xwPF"
+                echo -e "${GREEN}项目开源:${NC} https://github.com/Ochikororo/realm-xwPF"
                 exit 0
                 ;;
             --install)

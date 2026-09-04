@@ -72,7 +72,7 @@ DTAG
  ⬇️ UDP Down │ 10.0 Mbps (1.2 MB/s)      │ 0/26335 (0%)              │ 0.040 ms
 
 ─────────────────────────────────────────────────────────────────
-Completed: 2025-08-28 20:12:29 | Source: https://github.com/zywe03/realm-xwPF
+Completed: 2025-08-28 20:12:29 | Source: https://github.com/Ochikororo/realm-xwPF
 ```
 
 </details>
@@ -82,13 +82,13 @@ Completed: 2025-08-28 20:12:29 | Source: https://github.com/zywe03/realm-xwPF
 ### One-Click Install
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh | sudo bash -s install
+wget -qO- https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/xwPF.sh | sudo bash -s install
 ```
 
 ### Behind a Restricted Network? Use an Accelerated Mirror
 
 ```bash
-wget -qO- https://v6.gh-proxy.org/https://raw.githubusercontent.com/zywe03/realm-xwPF/main/xwPF.sh | sudo bash -s install
+wget -qO- https://v6.gh-proxy.org/https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/xwPF.sh | sudo bash -s install
 ```
 If the mirror is down, retry a few times or switch to another proxy with built-in acceleration.
 
@@ -101,8 +101,8 @@ For servers with absolutely no network connectivity.
 
 **1. Download the following files on a machine that does have internet access**
 
-- **Main script**: [xwPF.sh](https://github.com/zywe03/realm-xwPF/raw/main/xwPF.sh)
-- **Module files** (all required): https://github.com/zywe03/realm-xwPF/tree/main/lib
+- **Main script**: [xwPF.sh](https://github.com/Ochikororo/realm-xwPF/raw/main/xwPF.sh)
+- **Module files** (all required): https://github.com/Ochikororo/realm-xwPF/tree/main/lib
 
 - **Realm binary** (pick the one matching your architecture):
 
@@ -375,9 +375,9 @@ MPTCP (created when MPTCP is enabled)
 
 ## 🤝 Support
 
-- **More Projects:** [https://github.com/zywe03](https://github.com/zywe03)
+- **More Projects:** [https://github.com/Ochikororo](https://github.com/Ochikororo)
 - **Learn more:** [https://zywe.de](https://zywe.de)
-- **Bug Reports:** [GitHub Issues](https://github.com/zywe03/realm-xwPF/issues)
+- **Bug Reports:** [GitHub Issues](https://github.com/Ochikororo/realm-xwPF/issues)
 - **Linux.do** [https://linux.do/](https://linux.do/)
 
 ---
@@ -388,4 +388,4 @@ MPTCP (created when MPTCP is enabled)
 
 <img src="./zywe_赞赏码.jpg" alt="zywe sponsor QR" width="50%">
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=zywe03/realm-xwPF&type=Date)](https://star-history.dera.page/#zywe03/realm-xwPF&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=Ochikororo/realm-xwPF&type=Date)](https://star-history.dera.page/#Ochikororo/realm-xwPF&Date)

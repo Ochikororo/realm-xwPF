@@ -1317,7 +1317,7 @@ generate_final_report() {
     echo ""
     echo -e "─────────────────────────────────────────────────────────────────"
 
-    echo -e "测试完成时间: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S') | 脚本开源地址：https://github.com/zywe03/realm-xwPF"
+    echo -e "测试完成时间: $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M:%S') | 脚本开源地址：https://github.com/Ochikororo/realm-xwPF"
     echo -e "${WHITE}按任意键返回主菜单...${NC}"
     read -n 1 -s
 }
@@ -1506,7 +1506,7 @@ show_main_menu() {
 manual_update_script() {
     echo -e "${YELLOW}正在检查脚本更新...${NC}"
 
-    local script_url="https://raw.githubusercontent.com/zywe03/realm-xwPF/main/speedtest.sh"
+    local script_url="https://raw.githubusercontent.com/Ochikororo/realm-xwPF/main/speedtest.sh"
     local remote_ver=$(curl -sL --connect-timeout $SHORT_CONNECT_TIMEOUT --max-time $SHORT_MAX_TIMEOUT         "$script_url" 2>/dev/null |         grep -E '^SCRIPT_VERSION=' | head -1 | cut -d'"' -f2)
 
     if [ -z "$remote_ver" ]; then
